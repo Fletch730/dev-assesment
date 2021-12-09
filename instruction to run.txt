@@ -1,0 +1,17 @@
+1. npm install
+2. create docker image 
+    docker build . -t dev-assesment
+3. run docker image
+    docker run -p 3000:8080 -d dev-assesment
+4. get container id
+    docker ps
+5. start app
+    docker logs (paste CONTAINER ID here from the output of last command)
+6. open localhost:3000
+
+
+Alternative way without using docker=>
+
+1. npm install
+2. npm start
+3. open localhost:8080
